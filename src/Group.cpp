@@ -245,9 +245,9 @@ CreateGroup CreateGroup::Room(const std::vector<int>& lights, const std::string&
     return CreateGroup(lights, name, "Room", roomType);
 }
 
-CreateGroup CreateGroup::Entertainment(const std::vector<int>& lights, const std::string& name)
+CreateGroup CreateGroup::Entertainment(const std::vector<int>& lights, const std::string& name, const std::string& roomType)
 {
-    return CreateGroup(lights, name, "Entertainment", "");
+    return CreateGroup(lights, name, "Entertainment", roomType);
 }
 
 CreateGroup CreateGroup::Zone(const std::vector<int>& lights, const std::string& name)

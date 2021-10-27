@@ -331,7 +331,7 @@ public:
     //! The group can be empty.
     //! \param lights List of light ids, may be empty.
     //! \param name Name of the group, optional.
-    static CreateGroup Entertainment(const std::vector<int>& lights, const std::string& name = "");
+    static CreateGroup Entertainment(const std::vector<int>& lights, const std::string& name = "", const std::string& roomType = "");
 
     //! \brief Create a Zone.
     //!
